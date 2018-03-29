@@ -1,6 +1,6 @@
 #Netzwerk der Meinungsführer mit Jahr/Werkenetzwerk
 library(igraph)
-el <- read.csv("edge-creme.csv", header=TRUE)
+el <- read.csv("https://raw.githubusercontent.com/im041/zitate/master/edge-creme.csv", header=TRUE)
 is.data.frame(el)
 
 me <- graph.data.frame(el, directed=TRUE)
